@@ -53,7 +53,7 @@ export default function App() {
 
         try {
             // const response = await fetch('/api/convert', {
-            const response = await fetch('https://trungq1405-pdf-to-docx-converter-ba-chi.vercel.app/api/convert', {
+            const response = await fetch('/api/convert', {
                 method: 'POST',
                 body: formData,
             });
